@@ -64,10 +64,10 @@ An image is a packaged system that has the instructions for creating a running c
 ...
    build2:
      machine: # Specifies a machine image that uses
-     # an Ubuntu version 14.04 image with Docker 17.06.1-ce
-     # and docker-compose 1.14.0, follow CircleCI Discuss Announcements
+     # an Ubuntu version 16.04 image
+     # follow CircleCI Discuss Announcements
      # for new image releases.
-       image: circleci/classic:201708-01
+       image: ubuntu-1604:202007-01
 ...       
    build3:
      macos: # Specifies a macOS virtual machine with Xcode version 9.0

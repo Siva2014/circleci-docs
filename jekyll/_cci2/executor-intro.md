@@ -24,7 +24,7 @@ jobs:
 jobs:
   build: 
     machine: 
-      image: circleci/classic:201708-01 # VM will run Ubuntu 14.04 for this release date
+      image: ubuntu-1604:202007-01 # VM will run Ubuntu 16.04 for this release date
 ```
 
 ## macOS
